@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#btn-click{
+    margin: auto;
+    border-radius: 20px;
+    background-color: chartreuse;
+}
+.btn
+{
+    text-align: center;
+    background-color: chocolate;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
