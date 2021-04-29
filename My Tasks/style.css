@@ -1,4 +1,4 @@
-  
+ 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 body {
     padding: 0;
@@ -94,8 +94,11 @@ ul {
   margin-top: 25px;
   align-items: center;
 }
+.footer button.active{
+  opacity: 1;
+  pointer-events: auto;
+}
 .footer button{
-  
   border: none;
   outline: none;
   background: #8e49e8;
@@ -106,8 +109,4 @@ ul {
   padding: 8px 10px;
   opacity: 0.6;
   pointer-events: none;
-}
-.footer button.active{
-  opacity: 1;
-  pointer-events: auto;
 }
