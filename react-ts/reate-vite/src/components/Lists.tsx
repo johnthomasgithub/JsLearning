@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 
 interface ListProps<T> {
-  items: T[];
-  render: (item: T) => ReactNode;
+  items: string[];
+  render: (item: T | string) => ReactNode;
 }
 
 const Lists = <T,>({ items, render }: ListProps<T>) => {
